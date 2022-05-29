@@ -1,11 +1,10 @@
-﻿using PrintPreviewApp;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication2
+namespace PRINT_PDF
 {
     static class Program
     {
@@ -19,7 +18,5 @@ namespace WindowsFormsApplication2
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
-
-
     }
 }
